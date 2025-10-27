@@ -3,6 +3,8 @@
 //WAP that invokes this function to generate prime numbers between the given ranges.
 #include <stdio.h>
 int isprime(int n){
+    if (n <= 1)
+        return 0;
     for(int i=2; i*i<=n; i++){
         if (n%i==0){
             return 0;
