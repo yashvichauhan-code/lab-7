@@ -29,6 +29,7 @@ int main(){
     int n, result;
     printf("enter number: ");
     scanf("%d", &n);
-    printf("factorial is %d",fact(n));
+    result =fact(n);
+    printf("factorial is %d",result);
     return 0;
 }

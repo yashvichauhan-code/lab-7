@@ -27,6 +27,6 @@ int main(){
         else if (result==0){
             printf("%d is not prime.\n", i);
         }
-        }
-        return 0;
+    }
+    return 0;
 }
